@@ -1,0 +1,8 @@
+w=str(input())
+for i in range(len(w)-1):
+        if w[i+1]=='s' and w[i]=='s':
+            print("hiss")
+            break
+else:
+      print("no hiss")
+            
