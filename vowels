@@ -1,0 +1,7 @@
+a=(input())
+b=a.count('a')+a.count('A')
+c=a.count('e')+a.count('E')
+d=a.count('i')+a.count('I')
+e=a.count('o')+a.count('O')
+f=a.count('u')+a.count('U')
+print(b+c+d+e+f)
