@@ -1,0 +1,12 @@
+a,b,c=(input().split())
+x=int(a)
+y=int(b)
+z=int(c)
+sum=0
+for i in range(z):
+    sum+=x*z
+    z-=1
+if sum>y:
+    print(sum-y)
+else:
+    print(0)    
