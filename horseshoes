@@ -1,0 +1,12 @@
+a=(input().split())
+b=[]
+for i in list(a):
+    b.append(int(i))
+if len(set(b))==1:
+    print(3)
+elif len(set(b))==2:
+    print(2)
+elif len(set(b))==3:
+    print(1)    
+else:
+    print(0)    
