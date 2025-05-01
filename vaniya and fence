@@ -1,0 +1,13 @@
+a,b=(input().split())
+n=int(a)
+d=[]
+sum=0
+c=(input().split())
+for i in c:
+    d.append(int(i))
+for i in d:
+    if int(b)<i:
+        sum+=2
+    else:
+        sum+=1
+print(sum)
