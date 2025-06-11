@@ -1,0 +1,7 @@
+a=int(input())
+b=a/5
+c=round(b)
+if b>c:
+    print(c+1)
+else:
+    print(c)
