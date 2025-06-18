@@ -1,4 +1,4 @@
 n=int(input())
 b=map(int,input().split())
 s=sum(b)
-print (s)    
+print (s)   
