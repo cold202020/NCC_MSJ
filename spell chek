@@ -1,0 +1,9 @@
+n=int(input())
+for i in range(n):
+    b=int(input())
+    a=list(input())
+    a.sort()
+    if ['T','i','m','r','u']==a:
+        print("YES")
+    else:
+        print("NO")
