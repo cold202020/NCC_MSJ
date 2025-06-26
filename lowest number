@@ -1,0 +1,7 @@
+n=int(input())
+a=list(map(int,input().split()))  
+b=min(a)
+for i in range(n):
+    if b==a[i]:
+        print(b,i+1)
+        break       
