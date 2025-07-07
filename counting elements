@@ -1,0 +1,8 @@
+n=int(input())
+a=list(map(int,input().split()))
+b=a
+s=0
+for i in range(n):
+    if a[i]+1 in b:
+        s+=1
+print(s)    
