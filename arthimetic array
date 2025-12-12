@@ -1,0 +1,13 @@
+t = int(input())
+for i in range(t):
+  n = int(input())
+  a = list(map(int,input().split()))
+  b = sum(a)
+  if n > b:
+    print(1)
+    
+  elif b > n:
+    	print(b-n)
+  else:
+    print(0)
+    
