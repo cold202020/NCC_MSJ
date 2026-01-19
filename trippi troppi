@@ -1,0 +1,9 @@
+t = int(input())
+
+for i in range(t):
+	a = list(input())
+	b = a[0]
+	for i in range(len(a)):
+		if a[i] == ' ':
+			b = b+a[i+1]
+	print(b)
