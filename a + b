@@ -1,0 +1,8 @@
+ n = int(input())
+b = []
+for i in range(n):
+    a = (input())
+    b.append(int(a[0]))
+    b.append(int(a[2]))
+    print(sum(b))
+    b.clear()
