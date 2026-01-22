@@ -1,0 +1,14 @@
+t = int(input())
+b = 0
+for i in range(t):
+  n = int(input())
+  a = list(map(int,input().split()))
+  
+  for i in a:
+    if i % 2 ==1:
+      b = b+1
+  if b == n:
+    print("Yes")
+  else:
+    print("No")
+  b = 0
