@@ -1,0 +1,17 @@
+t = int(input())
+for i in range(t):
+  n = int(input())
+  a = list(map(int,input().split()))
+  b = 0
+  for i in range(3):
+    if a[n-1] == 0:
+      break
+    else:
+      n = a[n-1]
+    b+= 1
+  if b == 2:
+    print("YES")
+  else:
+    print("NO")
+    
+    
