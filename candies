@@ -1,0 +1,6 @@
+a,b = map(int,input().split())
+n = b
+for i in range(n):
+  print(a//b, end=" ")
+  a = a - a//b
+  b = b - 1
