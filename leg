@@ -1,0 +1,5 @@
+t = int(input())
+for i in range(t):
+    legs = int(input())
+    count = legs // 4 + (legs % 4) //  2
+    print(count)
